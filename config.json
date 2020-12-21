@@ -1,0 +1,42 @@
+{
+    "run_type": "",
+    "local_addr": "",
+    "local_port": 0,
+    "remote_addr": "",
+    "remote_port": 0,
+    "password": null,
+    "log_level": 0,
+    "ssl": {
+        "cert": "",
+        "cipher": "",
+        "cipher_tls13": "",
+        "alpn": null,
+        "reuse_session": false,
+        "session_ticket": false,
+        "curves": "",
+        "sni": "",
+        "key": "",
+        "key_password": "",
+        "prefer_server_cipher": false,
+        "session_timeout": 0,
+        "plain_http_response": "",
+        "dhparam": ""
+    },
+    "tcp": {
+        "no_delay": false,
+        "keep_alive": false,
+        "reuse_port": false,
+        "fast_open": false,
+        "fast_open_qlen": 0,
+        "prefer_ipv4": false
+    },
+    "mysql": {
+        "enabled": true,
+        "server_addr": "127.0.0.1",
+        "server_port": 3307,
+        "database": "trojan",
+        "username": "root",
+        "password": "",
+        "cafile": ""
+    }
+}
